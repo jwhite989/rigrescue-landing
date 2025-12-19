@@ -1,4 +1,4 @@
-import { Truck } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -6,17 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg gradient-accent flex items-center justify-center">
-              <Truck className="w-6 h-6 text-accent-foreground" />
-            </div>
-            <div>
-              <span className="text-lg font-bold text-background">
-                RigRescue
-              </span>
-              <p className="text-sm text-background/60">
-                Roadside breakdowns, solved.
-              </p>
-            </div>
+            <img src={logo} alt="RigRescue Logo" className="h-12 w-auto" />
           </div>
 
           <nav className="flex items-center gap-6 text-sm">
