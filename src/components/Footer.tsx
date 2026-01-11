@@ -1,4 +1,4 @@
-import logo from "@/assets/logo.png";
+import logo from '@/assets/logo.png';
 
 const Footer = () => {
   return (
@@ -41,7 +41,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-[hsl(220,15%,30%)] text-center">
           <p className="text-sm text-[hsl(220,15%,50%)]">
-            © 2025 RigRescue. All rights reserved.
+            © 2026 RigRescue. All rights reserved.
           </p>
         </div>
       </div>

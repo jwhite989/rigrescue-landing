@@ -37,8 +37,8 @@ const TeamSection = () => {
 
             <div className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
               <Mail className="w-5 h-5" />
-              <a href="mailto:hello@rigrescue.com" className="font-medium">
-                Questions? Email me directly
+              <a href="mailto:rigrescue26@gmail.com" className="font-medium">
+                Questions? Email us directly
               </a>
             </div>
           </div>
