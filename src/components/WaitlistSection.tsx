@@ -15,6 +15,7 @@ const roles = [
 const WaitlistSection = () => {
   const [email, setEmail] = useState('');
   const [role, setRole] = useState('');
+  const [state, setState] = useState('');
   const [painPoint, setPainPoint] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -42,6 +43,7 @@ const WaitlistSection = () => {
 
     setEmail('');
     setRole('');
+    setState('');
     setPainPoint('');
     setIsSubmitting(false);
   };
@@ -95,6 +97,13 @@ const WaitlistSection = () => {
                 </option>
               ))}
             </select>
+
+            <input
+              placeholder="State"
+              value={state}
+              onChange={(e) => setState(e.target.value)}
+              className="w-full px-5 py-4 rounded-xl bg-card text-foreground placeholder:text-muted-foreground border-0 focus:ring-2 focus:ring-accent outline-none text-base"
+            />
 
             <textarea
               placeholder="What's your biggest pain point with breakdowns today? (Optional)"
